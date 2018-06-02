@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: gainsboro;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+
+.body{
+    margin: 0px auto;
+    width: 70%;
+
+}
+
+.main-header img{
+    width: 20%;
+    height: auto;
+    margin: 8px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.main-header nav{
+    background-color: greenyellow;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main-header nav ul li{
+    display: inline;
+    float: left;
+}
+
+.main-header nav a:link, .main-header nav a:visited{
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+
+    /* To do */
+}
+
+.main-header nav a:hover,.main-header nav a:active
+.main-header nav a:hover a:link,.main-header nav a:active a:visited{
+    background-color: orange;
+    text-shadow: none;
+}
+
+.main-header nav ul li a{
+      border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main-content{
+
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.content{
+    width: 70%;
+    float: left;
+}
+
+.top-content{
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+}
+
+.bottom-content{
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 5px;
+}
+
+.top-sidebar{
+    height: 150px;
+    border: 2px solid blue;
+    width: 27%;
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 5px;
+}
+
+.middle-sidebar{
+    border: 2px solid blue;
+    width: 27%;
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 5px;
+}
+
+.bottom-sidebar{
+    border: 2px solid blue;
+    width: 27%;
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 5px;
+}
+
+.main-footer{
+    float: left;
+      width: 100%;
+     border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: cadetblue;
+}
+.main-footer p{
+    text-align: center;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px){
+    .body{
+        width: 98%;
+    }
+}
+
+
+
+
+
+
+
+
+
+

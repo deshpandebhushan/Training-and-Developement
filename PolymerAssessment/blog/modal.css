@@ -1,0 +1,76 @@
+body{
+    font-size: 17px;
+}
+
+.button{
+    background-color: coral;
+    padding: 2px 4px;
+    color: white;
+    border: 1px solid blue;
+}
+
+.button:hover{
+    background-color: gray;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.modal-content{
+    background-color: coral;
+    margin: 10% auto;
+     width: 70%;
+    box-shadow: 0 5px 8px;
+    animation-name: modalOpen;
+    animation-duration: 2s;
+}
+
+.close-btn{
+    color: white;
+    float: right;
+    font-size: 30px;
+}
+
+.close-btn:hover, .close-btn:focus{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes modalOpen {
+    from {opacity: 0}
+    to {opacity: 1}
+    
+}
+
+.modal-Header{
+  background-color: cadetblue;
+    padding: 5px;
+    color: white;
+}
+
+.modal-footer{
+    background-color: cadetblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
